@@ -1,0 +1,20 @@
+{
+  "name": "thorin-store-formlet",
+  "author": "UNLOQ Systems",
+  "version": "1.0.0",
+  "dependencies": {
+    "formlet": "^1.x",
+    "decamelize": "1.2.0"
+  },
+  "description": "Thorin.js formlet.io store",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thorinjs/Thorin-store-formlet"
+  },
+  "homepage": "http://thorinjs.com",
+  "bugs": {
+    "url": "https://github.com/Thorinjs/Thorin-store-formlet/issues"
+  }
+}
