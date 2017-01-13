@@ -1,5 +1,6 @@
 'use strict';
-const storeInit = require('./lib/formletStore');
+const storeInit = require('./lib/formletStore'),
+  actionInit = require('./lib/formletAction');
 /**
  *
  *
@@ -10,6 +11,7 @@ module.exports = function init(thorin, opt) {
   opt = thorin.util.extend({
     logger: 'formlet'
   }, opt);
+  actionInit(thorin, opt);
   const ThorinFormletStore = storeInit(thorin, opt || {});
   return ThorinFormletStore;
 };
