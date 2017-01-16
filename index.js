@@ -1,6 +1,7 @@
 'use strict';
 const storeInit = require('./lib/formletStore'),
-  actionInit = require('./lib/formletAction');
+  actionInit = require('./lib/formletAction'),
+  crudifyInit = require('./lib/crudifyAction');
 /**
  *
  *
@@ -11,6 +12,7 @@ module.exports = function init(thorin, opt) {
   opt = thorin.util.extend({
     logger: 'formlet'
   }, opt);
+  crudifyInit(thorin, opt);
   actionInit(thorin, opt);
   const ThorinFormletStore = storeInit(thorin, opt || {});
   return ThorinFormletStore;
