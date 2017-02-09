@@ -1,9 +1,9 @@
 {
   "name": "thorin-store-formlet",
   "author": "UNLOQ Systems",
-  "version": "1.0.16",
+  "version": "1.0.18",
   "dependencies": {
-    "formlet": "^1.x",
+    "formlet": "^2.x",
     "decamelize": "1.2.0"
   },
   "description": "Thorin.js formlet.io store",
