@@ -1,7 +1,7 @@
 {
   "name": "thorin-store-formlet",
   "author": "UNLOQ Systems",
-  "version": "1.0.29",
+  "version": "1.0.31",
   "dependencies": {
     "formlet": "^2.x",
     "decamelize": "1.2.0"
